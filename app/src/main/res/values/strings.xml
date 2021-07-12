@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sifat Sifat Rasul</string>
+    <string name="todo">marhaban</string>
+    <string name="swajib">Sifat Wajib Bagi Rasul</string>
+    <string name="smustahil">Sifat Mustahil Bagi Rasul</string>
+    <string name="sjaiz">Sifat Jaiz Bagi Rasul</string>
+    <string name="judul">TODO</string>
+</resources>

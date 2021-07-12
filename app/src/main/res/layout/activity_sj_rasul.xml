@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sj_rasul"
+    android:background="@drawable/bac_isi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bac_isi"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIFAT JAIZ BAGI RASUL" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sj" />
+
+        <TextView
+            android:id="@+id/jaiz"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/imageView"
+            android:padding="10dp"
+            android:text="Sifat jaiz bagi rasul merupakan sifat kemanusiaan, yakni al-ardul basyariyah yang berarti rasul mempunyaisifat-sifat sebagaimana manusia biasa. Allah Swt berfirma"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ayat"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/jaiz"
+            android:padding="10dp"
+            android:text="Artinya: “…(orang) ini tidak lain hanyalah manusia seperti kamu, dia makan seperti apa yang kamu makan dan dia minum seperti apa yang kamu minum.” (QS. al-Mu’minun: 33)"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>
